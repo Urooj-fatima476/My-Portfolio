@@ -67,11 +67,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Experienced Full Stack Backend & Rust Solana Developer with over 2 years of
-        experience. Passionate about delivering high-quality web solutions with
-        a strong foundation in Node.js & Rust. Committed to writing clean code,
-        providing exceptional user experiences, and staying updated with
-        industry trends for innovative solutions.
+      Experienced Frontend Web Developer with expertise in React.js, TypeScript, Next.js, HTML, CSS, and Python. Passionate about building responsive, high-performance web applications and delivering exceptional user experiences. Skilled in leveraging modern technologies like React.js and Next.js for dynamic interfaces, and committed to writing clean, efficient code while staying updated with the latest web development trends.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -1,22 +1,22 @@
 export default {
-  // Temp fonts
+  // Updated fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Poppins, sans-serif",  // Modern sans-serif for titles
+    main: "Open Sans, sans-serif"  // Clean and readable for main content
   },
-  // Colors for layout
+  // Colors for layout with dark purple background
   colors: {
-    primary1: "hsl(204,23.8%,95.9%)",
-    background1: "#0F1624",
-    accent1: "hsl(34.9,98.6%,72.9%)",
-    button: "hsl(205.1,100%,36.1%)",
-    background2: "hsl(232.7,27.3%,23.7%)",
+    primary1: "#4CAF50",  // Green as the primary color for a fresh look
+    background1: "#2D1B59", // Dark purple background for a rich and elegant feel
+    accent1: "#FF4081",     // Soft pink for accents (vibrant yet soft)
+    button: "#1976D2",      // Blue for button actions (trustworthy and professional)
+    background2: "#263238", // Darker charcoal grey for a contrasting background (sections or footer)
   },
   // Breakpoints for responsive design
   breakpoints: {
-    sm: 'screen and (max-width: 640px)',
-    md: 'screen and (max-width: 768px)',
-    lg: 'screen and (max-width: 1024px)',
-    xl: 'screen and (max-width: 1280px)'
+    sm: 'screen and (max-width: 480px)',   // Adjusted for smaller devices
+    md: 'screen and (max-width: 768px)',   // Standard tablet size
+    lg: 'screen and (max-width: 1024px)',  // Larger tablets
+    xl: 'screen and (max-width: 1440px)'   // For larger screens like laptops
   },
 }

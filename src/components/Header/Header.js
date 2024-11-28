@@ -16,7 +16,7 @@ import {
   NavLink,
   SocialIcons,
 } from "./HeaderStyles";
-import { FacebookUrl, GithubUrl, LinkedInUrl } from "../../constants/constants";
+
 
 const Header = () => (
   <Container>
@@ -45,13 +45,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href={GithubUrl} target="_blank">
+      <SocialIcons  target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href={LinkedInUrl} target="_blank">
+      <SocialIcons  target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href={FacebookUrl} target="_blank">
+      <SocialIcons  target="_blank">
         <AiFillFacebook size="3rem" />
       </SocialIcons>
     </Div3>

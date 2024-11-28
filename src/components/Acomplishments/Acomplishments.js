@@ -54,6 +54,6 @@ export default Acomplishments;
 const getFollowers = () => {
   return axios.get(
     "https://api.github.com/users/tanv33"
-    // "https://api.github.com/users/tanv33/followers?per_page=100"
+  
   );
 };

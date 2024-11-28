@@ -19,8 +19,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Blockchain
+    I've worked with a range of technologies in web development, specializing in front-end development with React.js, TypeScript, and Next.js.
     </SectionText>
     <List>
       <ListItem>
@@ -32,7 +31,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with Next.js
             <br />
-            React.js, Bootstrap, MaterialUi
+            React.js, Bootstrap, 
             <br />
             Ant Design, HTML5, CSS3 <br />& JavaScript
           </ListParagraph>
@@ -47,15 +46,12 @@ const Technologies = () => (
           <ListParagraph>
             Experience with Node.js
             <br />
-            Express.js, GraphQL, Nest.js
+            Python
             <br />
-            TypeScript, Microservices
+            TypeScript, 
             <br />
-            Docker, PubSub, RabbitMQ
-            <br />
-            Prisma, Sequelize, MongoDB
-            <br />
-            MYSQL & Postgres
+            
+          
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -64,11 +60,11 @@ const Technologies = () => (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Blockchain</ListTitle>
+          <ListTitle>UI and UX DEsigning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Solana Blockchain <br />
-            using Rust
+          user-friendly interfaces <br />
+          web and mobile applications <br />
+           
           </ListParagraph>
         </ListContainer>
       </ListItem>

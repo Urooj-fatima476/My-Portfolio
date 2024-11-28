@@ -44,12 +44,12 @@ const Projects = () => (
             </div>
             <UtilityList>
               {p.visit && (
-                <ExternalLinks href={p.visit} target="_blank">
+                <ExternalLinks  target="_blank">
                   Code
                 </ExternalLinks>
               )}
               {p.source && (
-                <ExternalLinks href={p.source} target="_blank">
+                <ExternalLinks target="_blank">
                   Source
                 </ExternalLinks>
               )}

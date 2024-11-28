@@ -1,130 +1,52 @@
 export const projects = [
   {
-    title: "Honeycomb Protocol",
+    title: "Chat Application",
     description:
-      "The development of Web3 applications in gaming is often seen as overly complex, leading to a lack of specialized tools for game developers.",
-    image:
+      "A real-time chat application with features like private messaging and group chats, built with React.js, Node.js, and WebSockets for real-time communication.",
+      image:
       "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fhoneycomb2.png?alt=media&token=0e607a9e-98e8-4e47-b9ed-4d1eeec81e11",
     tags: ["Rust", "Node.js"],
     visit: null,
-    source: "https://docs.honeycombprotocol.com/",
+   
     id: 52,
   },
   {
-    title: "Proleague",
+    title: "Blogging Platform",
     description:
-      "A web 3.0 platform on the Solana blockchain for hosting tournaments, enabling game sponsorships, and providing instant payouts for games.",
+      "A responsive blogging platform where users can write and share blogs, with user authentication and post management using Next.js, MongoDB, and Tailwind CSS..",
     image:
       "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fproleague2.png?alt=media&token=41fbca51-fd49-4130-a364-da90f96c25fd",
     tags: ["Rust", "Node.js", "Next.js", "MongoDB"],
     visit: null,
-    source: "https://alpha.proleague.gg/",
+   
     id: 42,
   },
+ 
+ 
   {
-    title: "The PartyCade",
+    title: "E-commerce Platform",
     description:
-      "The Partycade offers unique games for many occasions. Such as Birthday Dinners, Baby Showers, Bridal Showers and many more. You’ll get to enjoy a friendly fun competition with your loved ones all from your smart device. Can’t make it to the event? No worries, you can join the game room wherever you are.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2FpartycadeMain.png?alt=media&token=472f620d-3322-44da-97ac-5e3caa5d94a9",
-    // image: "/images/jp01.jpg",
-    tags: ["Node.js", "Prisma", "Flutter", "GraphQL", "Pubsub"],
-
-    source:
-      "https://play.google.com/store/apps/details?id=com.thepartycade.partycade",
-    visit: null,
-    id: 22,
-  },
-  {
-    title: "Scribble",
-    description:
-      "Scribble Library. Showcase your work on our exclusive Scribble Library for all to see! Once you submit your information, we will post your submitted book cover and information in the Scribble Library Directory to be available for all users to see, read, rate and review!",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fjp01.jpg?alt=media&token=b9076390-4516-4fd3-b55d-64811f0dce2c",
-    // image: "/images/jp01.jpg",
-    tags: ["Node.js", "Microservices", "Flutter", "Socket.io", "MongoDB"],
-
-    source:
-      "https://play.google.com/store/apps/details?id=com.scribble.thesuitch",
-    visit: null,
-    id: 32,
-  },
-  {
-    title: "Scribble Dashboard",
-    description:
-      "Introducing the 'Scribble Dashboard,' a powerful CRM tool designed specifically for managing submitted book covers and information. With the Scribble Dashboard, users have complete control over the book submission process, ensuring seamless organization and efficient management.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fproject%20001.png?alt=media&token=130ea4e6-d6fc-4381-b65a-9e9c6722b001",
-    // image: "/images/project 001.png",
-    tags: ["Next.js", "Microservices", "Node.js", "Socket.io", "MongoDB"],
-
-    source: "https://dashboard.thescribbleapp.com",
-    visit: null,
-    id: 35,
-  },
-  {
-    title: "KC-Elite",
-    description:
-      "Elevate your basketball skills with the KC Elite Basketball Training Mobile App. Personalized workouts, expert coaching, progress tracking, and convenient scheduling all in one place. Reach new heights on the court. Unlock your full potential and take your basketball game to the next level.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fjp02.png?alt=media&token=b25fa786-1c19-4c58-9954-106b0a4737aa",
-    // image: "/images/jp02.png",
-    tags: ["Node.js", "Monolithic Arc", "Flutter", "MongoDB"],
-
-    source:
-      "https://play.google.com/store/apps/details?id=com.kcebasketball.kcelite",
-    visit: null,
-    id: 33,
-  },
-  {
-    title: "Health Titan Pro",
-    description:
-      "Introducing Health Titan Pro, the online COVID vaccination center where you can fill out a form and get vaccinated within minutes. All the results will be sent to your email. Experience the convenience and speed of Health Titan Pro for your vaccination needs.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fhtp001.png?alt=media&token=ef567442-01ec-474f-be8f-e4791379300e",
-    // image: "/images/htp001.png",
-    tags: ["React", "Node.js", "Dropbox", "MongoDB"],
-
-    source: "https://project-htp.web.app/",
-    visit: null,
-    id: 47,
-  },
-  {
-    title: "NFT Market-place (Dreamhub)",
-    description:
-      "Dreamhub is an Ethereum-based NFT market-place that allows creators to mint and sell their NFTs. Additionally, creators will be able to place their NFTs on the market for bidding and auction",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fssd01.png?alt=media&token=9a9ec35e-5c7f-4d40-bd40-bcbf6f2dd058",
-    // image: "/images/ssd01.png",
-    tags: ["React", "Node.js", "MetaMask", "Web3.js", "MongoDB"],
-    source: "https://dreamhub.art",
-    visit: null,
-    id: 40,
-  },
-  {
-    title: "Women-Tribe",
-    description:
-      "A thriving community that promotes inclusivity, education, empathy, and empowerment for women. To celebrate Pride Month, we have created our official Women Tribe Pride NFT! Establishing and funding a yearly scholarship program to help women in",
+      "A fully functional e-commerce platform featuring product listings, a shopping cart, and payment gateway integration using React.js, Node.js, and MongoDB",
     image:
       "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fssd02.png?alt=media&token=94475244-55be-410e-b642-75100d1bc1b3",
     // image: "/images/ssd02.png",
     tags: ["React", "CSS3", "Bootstrap"],
 
-    source: "https://womentribe.art/",
+   
     visit: null,
     id: 41,
   },
   {
-    title: "Alamal Computers",
+    title: "Portfolio Website",
     description:
-      "Welcome to Alamal Computer, the ultimate e-commerce platform dedicated to laptops, computers, and accessories. At Alamal Computer, we provide a seamless marketplace where both sellers and consumers can easily buy and sell items. Our platform supports secure transactions through PayPal.",
-    image:
+      "A personal portfolio website built with React.js and Next.js, showcasing skills, projects, and achievements with an interactive design.",
+      image:
       "https://firebasestorage.googleapis.com/v0/b/bucket-a2d0b.appspot.com/o/postImages%2Fproject%208.png?alt=media&token=de7e5f7a-f54b-403d-bec8-f2d36b630bf2",
     // image: "/images/project 8.png",
     tags: ["React", "Firebase", "Node.js", "Paypal", "MongoDB"],
 
-    source: "https://alamal-computer.onrender.com",
-    visit: "https://github.com/Tanv33/Alamal-Computers",
+    
+    
     id: 1,
   },
   // {
@@ -217,38 +139,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  // { year: 2017, text: "Passed my Matriculation in Computer Science" },
-  // { year: 2019, text: "Passed my Intermediate in Pre-Engineering" },
-  {
-    year: 2020,
-    text: "Enrolled in university for a Bachelor's in Computer Science",
-  },
-  {
-    year: 2021,
-    text: "Started as a freelance and onsite developer, embarking on my industry journey",
-  },
-  {
-    year: 2022,
-    text: "I have learned and struggled a lot. Difficult times make a person stronger",
-  },
-  {
-    year: 2023,
-    text: "Completed my bachelors degree",
-  },
-  {
-    year: 2024,
-    text: "Focusing on backend development using Node.js and Solana blockchain.",
-  },
+
+
 ];
 
-export const FiverUrl = "https://www.fiverr.com/tanv33r_khan";
+export const FiverUrl = "";
 export const UpworkUrl =
-  "https://www.upwork.com/freelancers/~0128ca58b87e6d95b6";
-export const ResumeUrl = "https://www.cakeresume.com/tanveer-khan-21f68d";
-export const GithubUrl = "https://github.com/Tanv33";
+  "";
+export const ResumeUrl = "";
+export const GithubUrl = "";
 export const LinkedInUrl =
-  "https://www.linkedin.com/in/tanveer-khan-b4a3b621b/";
+  "";
 export const FacebookUrl =
-  "https://www.facebook.com/profile.php?id=100007686159316";
-export const MobileNumber = "0334-2177092";
-export const PersonalEmail = "tanveer.khan2692000@gmail.com";
+  "";
+export const MobileNumber = "6438742489";
+export const PersonalEmail = "uroojalvi4242@gmail.com";
