@@ -53,7 +53,8 @@ export default Acomplishments;
 
 const getFollowers = () => {
   return axios.get(
-    "https://api.github.com/users/tanv33"
+    "https://api.github.com/users/Urooj-fatima476",
+
   
   );
 };
